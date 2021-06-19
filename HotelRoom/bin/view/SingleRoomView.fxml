@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="615.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SingleRoomController">
+	<children>
+		<GridPane fx:id="gridPaneButtons" prefHeight="25.0" prefWidth="750.0">
+			<children>
+				<Label fx:id="labelStreetName" prefHeight="39.0" prefWidth="220.0" style="-fx-font-size: 16;" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+					<opaqueInsets>
+						<Insets />
+					</opaqueInsets>
+					<padding>
+						<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+					</padding>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+				</Label>
+				<VBox alignment="CENTER" GridPane.columnIndex="2">
+					<children>
+						<Button fx:id="buttonRent" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="31.0" prefWidth="114.0" style=" -fx-font-weight: bold;" text="Book" textFill="WHITE" GridPane.columnIndex="2">
+							<cursor>
+								<Cursor fx:constant="HAND" />
+							</cursor>
+							<GridPane.margin>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</GridPane.margin>
+							<VBox.margin>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</VBox.margin>
+							<padding>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</padding>
+						</Button>
+						<Button fx:id="buttonComplete" mnemonicParsing="false" prefHeight="31.0" prefWidth="116.0" style=" -fx-font-weight: bold;" text="Complete" textFill="WHITE">
+							<padding>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</padding>
+						</Button>
+					</children>
+					<GridPane.margin>
+						<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+					</GridPane.margin>
+				</VBox>
+				<VBox alignment="CENTER" GridPane.columnIndex="1">
+					<children>
+						<Button fx:id="buttonReturn" mnemonicParsing="false" prefHeight="31.0" prefWidth="129.0" style=" -fx-font-weight: bold;" text="Return" textFill="WHITE" GridPane.columnIndex="1">
+							<GridPane.margin>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</GridPane.margin>
+							<cursor>
+								<Cursor fx:constant="HAND" />
+							</cursor>
+							<padding>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</padding>
+							<VBox.margin>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</VBox.margin>
+						</Button>
+						<Button fx:id="buttonMaintenance" mnemonicParsing="false" prefHeight="31.0" prefWidth="142.0" style=" -fx-font-weight: bold;" text="Maintenance" textFill="WHITE">
+							<padding>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</padding>
+							<VBox.margin>
+								<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+							</VBox.margin>
+						</Button>
+					</children>
+				</VBox>
+			</children>
+			<columnConstraints>
+				<ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="460.0" minWidth="10.0" prefWidth="361.0" />
+				<ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="267.0" minWidth="0.0" prefWidth="267.0" />
+				<ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="267.0" />
+			</columnConstraints> 
+			<rowConstraints>
+				<RowConstraints vgrow="SOMETIMES" />
+			</rowConstraints>
+			<opaqueInsets>
+				<Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+			</opaqueInsets>
+			<VBox.margin>
+				<Insets bottom="20.0" top="30.0" />
+			</VBox.margin>
+		</GridPane>
+		<BorderPane prefHeight="170.0" prefWidth="750.0">
+			<center>
+				<ImageView fx:id="imageViewMain" fitHeight="178.0" fitWidth="623.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+					<BorderPane.margin>
+						<Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+					</BorderPane.margin>
+				</ImageView>
+			</center>
+		</BorderPane>
+		<TextArea fx:id="textAreaDescription" editable="false" prefHeight="120.0" prefWidth="750.0" wrapText="true" GridPane.rowIndex="2">
+			<font>
+				<Font size="14.0" />
+			</font>
+		</TextArea>
+		<TableView fx:id="tableViewRecords" prefHeight="191.0" prefWidth="750.0">
+			<columns>
+				<TableColumn fx:id="tableColumnId" editable="false" prefWidth="150.0" text="ID" />
+				<TableColumn fx:id="tableColumnCustomer" editable="false" prefWidth="106.0" text="Customer" />
+				<TableColumn fx:id="tableColumnRentDate" editable="false" prefWidth="93.0" text="RentDate" />
+				<TableColumn fx:id="tableColumnEstimatedReturnDate" editable="false" minWidth="-1.0" prefWidth="153.0" text="EstimatedReturnDate" />
+				<TableColumn fx:id="tableColumnActualReturnDate" editable="false" minWidth="-1.0" prefWidth="117.0" text="ActualReturnDate" />
+				<TableColumn fx:id="tableColumnRentalFee" editable="false" minWidth="-1.0" prefWidth="75.0" text="RentalFee" />
+				<TableColumn fx:id="tableColumnLateFee" editable="false" minWidth="-1.0" prefWidth="61.0" text="LateFee" />
+			</columns>
+		</TableView>
+	</children>
+	<opaqueInsets>
+		<Insets />
+	</opaqueInsets>
+</VBox>

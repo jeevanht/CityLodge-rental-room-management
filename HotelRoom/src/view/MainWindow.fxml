@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="600.0" prefWidth="400.0"  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+	<children>
+		<MenuBar VBox.vgrow="NEVER">
+			<menus>
+				<Menu mnemonicParsing="false" text="Import">
+					<items>
+						<MenuItem fx:id="menuItemImport" mnemonicParsing="false" text="Import" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Export">
+					<items>
+						<MenuItem fx:id="menuItemExport" mnemonicParsing="false" text="Export" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Add Room">
+					<items>
+						<MenuItem fx:id="menuItemAddProperty" onAction="#addRoom" mnemonicParsing="false" text="Add Room" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Quit">
+					<items>
+						<MenuItem fx:id="menuItemQuit" mnemonicParsing="false" text="Quit" />
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+		<BorderPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="SOMETIMES">
+			<center>
+				<ScrollPane fx:id="scrollPanePropertyList" fitToWidth="true" prefHeight="470.0" prefViewportHeight="200.0" prefViewportWidth="200.0" prefWidth="867.0" BorderPane.alignment="CENTER">
+					<content>
+						<TilePane fx:id="tilePanePropertyItemList" />
+					</content>
+				</ScrollPane>
+			</center>
+			<top>
+				<ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+					<items>
+						<RadioButton fx:id="radioButtonAll" mnemonicParsing="false" selected="true" text="All" />
+						<RadioButton fx:id="radioButtonApartment" mnemonicParsing="false" text="Standard Room" />
+						<RadioButton fx:id="radioButtonPremiumSuite" mnemonicParsing="false" text="Suite" />
+						<Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+						<Label text="Number Of Beds" />
+						<ChoiceBox fx:id="choiceBoxBedroomNumber" prefWidth="150.0" />
+						<Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="0.0" />
+						<Label text="Status" />
+						<ChoiceBox fx:id="choiceBoxStatus" prefWidth="150.0" />
+					</items>
+				</ToolBar>
+			</top>
+		</BorderPane>
+	</children>
+</VBox>

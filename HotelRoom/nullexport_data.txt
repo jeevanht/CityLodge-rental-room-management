@@ -1,0 +1,41 @@
+#rental_property#
+R_103::Floor 3::Standard Room 1::4 Bed::4::standard_room::currently available for rent::R_101.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM::2019-10-04 06:36:35
+S_203::Floor 3::Suit Room 1::6 Bed::6::premium_suite::currently available for rent::S_201.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM, Fridge, Washing machine, Dinning table, Furnitures.::2019-10-04 06:36:35
+R_102::Floor 2::Standard Room 2::2 Bed::2::standard_room::currently available for rent::R_102.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM::2019-10-04 06:36:35
+R_101::Floor 1::Standard Room 3::1 Bed::1::standard_room::being rented::R_103.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM::2019-10-04 06:36:35
+S_202::Floor 2::Suit Room 2::6 Bed::6::premium_suite::currently available for rent::S_202.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM, Fridge, Washing machine, Dinning table, Furnitures.::2019-10-04 06:36:35
+S_201::Floor 1::Suite Room 3::6 Bed::6::premium_suite::currently available for rent::S_203.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM, Fridge, Washing machine, Dinning table, Furnitures.::2019-10-04 06:36:35
+R_104::Floor 4::Standard Room 4::2 Bed::2::standard_room::currently available for rent::R_104.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM::2019-10-20 06:36:35
+S_204::Floor 4::Suit Room 4::6 Bed::6::premium_suite::currently available for rent::S_204.jpg::Air Condition, TV, Sofa, Great View, Kettle, Music System, GYm access, Free breakfast, News paper, Radio, FM, Fridge, Washing machine, Dinning table, Furnitures.::2019-10-21 06:36:35
+#rental_record#
+S_203_hyut_21102019::S_203::hyut::2019-10-21::2019-10-29::2019-10-24::2997.0::0.0
+R_103_Rtyu_21102019::R_103::Rtyu::2019-10-21::2019-10-29::2019-10-29::1592.0::0.0
+R_103_Sro_21102019::R_103::Sro::2019-10-21::2019-10-26::none::0.0::0.0
+R_103_ffgghhh_21102019::R_103::ffgghhh::2019-10-21::2019-10-29::none::0.0::0.0
+R_102_G123_21102019::R_102::G123::2019-10-21::2019-10-30::2019-10-25::396.0::0.0
+S_203_fffff_21102019::S_203::fffff::2019-10-21::2019-10-28::none::0.0::0.0
+S_203_C_3546_22102019::S_203::C_3546::2019-10-22::2019-10-30::2019-10-30::7992.0::0.0
+S_203_D_345_22102019::S_203::D_345::2019-10-22::2019-10-28::none::0.0::0.0
+R_103_fff_22102019::R_103::fff::2019-10-22::2019-10-25::2019-10-29::597.0::1074.6000000000001
+S_203_Fgggh_22102019::S_203::Fgggh::2019-10-22::2019-10-24::none::0.0::0.0
+R_103_ggggg_22102019::R_103::ggggg::2019-10-22::2019-10-24::none::0.0::0.0
+S_203_Fttt_22102019::S_203::Fttt::2019-10-22::2019-10-24::none::0.0::0.0
+R_103_fffff_22102019::R_103::fffff::2019-10-22::2019-10-30::none::0.0::0.0
+R_101_hhhhh_22102019::R_101::hhhhh::2019-10-22::2019-10-29::none::0.0::0.0
+S_201_gggg_22102019::S_201::gggg::2019-10-22::2019-10-29::2019-10-30::6993.0::1099.0
+R_103_FRJ_22102019::R_103::FRJ::2019-10-22::2019-10-30::none::0.0::0.0
+R_103_kkkkk_22102019::R_103::kkkkk::2019-10-22::2019-10-30::none::0.0::0.0
+R_103_Fheafrh_22102019::R_103::Fheafrh::2019-10-22::2019-10-28::none::0.0::0.0
+R_103_jeevan_22102019::R_103::jeevan::2019-10-22::2019-10-28::none::0.0::0.0
+S_203_gggggg_22102019::S_203::gggggg::2019-10-22::2019-10-30::none::0.0::0.0
+R_103__22102019::R_103::::2019-10-22::2019-10-24::none::0.0::0.0
+S_202__29102019::S_202::::2019-10-29::2019-11-06::2019-10-30::999.0::0.0
+R_103_kkkkkk_22102019::R_103::kkkkkk::2019-10-22::2019-10-29::none::0.0::0.0
+R_103_hhhhhhh_22102019::R_103::hhhhhhh::2019-10-22::2019-10-25::none::0.0::0.0
+R_103_jjjjj_22102019::R_103::jjjjj::2019-10-22::2019-10-24::none::0.0::0.0
+R_103_fd_22102019::R_103::fd::2019-10-22::2019-10-29::none::0.0::0.0
+S_203__22102019::S_203::::2019-10-22::2019-10-30::none::0.0::0.0
+S_202__22102019::S_202::::2019-10-22::2019-10-30::none::0.0::0.0
+S_204_g_567_21102019::S_204::hyut::2019-10-21::2019-10-29::2019-10-24::2997.0::0.0
+R_104_F_456_21102019::R_104::Rtyu::2019-10-21::2019-10-29::2019-10-29::1592.0::0.0
+#rental_record#
