@@ -1,6 +1,6 @@
 # CityLodge-rental-room-management
 
-A Graphical User Interface for the CityLodge rental room management application using Java SE 8.0 and JavaFX.
+A Graphical User Interface for the CityLodge rental room management desktop application using Java SE 8.0 and JavaFX.
 ![RoomBookingMain](https://user-images.githubusercontent.com/62242781/122760078-0990f680-d2de-11eb-9068-3b05662d1870.PNG)
 
 GUI to book or release a room
